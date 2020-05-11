@@ -1,0 +1,18 @@
+<!-- LSAC Selected Environment File -->
+<!-- Copy paste a test environment definition from src/main/resources/environment below this line -->
+
+<parameter name="browser" value="Chrome"/>
+<parameter name="browserVersion" value="21"/>
+<parameter name="os" value="Any"/>
+<parameter name="device" value="laptop"/>
+
+<!-- Deployment Environment Selection -->
+<parameter name="testUrl" value="" />
+<parameter name="title" value="" />
+
+<!-- Test Environment Selection -->
+<parameter name="appiumchromedriverPath" value="" />
+<parameter name="chromeDriverPaths" value="" />
+
+<parameter name="deployment" value="sandbot" />
+

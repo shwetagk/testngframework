@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"
+[
+<!ENTITY envMaster SYSTEM "resources/selected-environment.xml">
+] >
+
+<suite name="Application Suite" parallel="tests" thread-count="10">
+
+<!-- *** Do not modify *** -->
+  &envMaster;
+<!-- *** End do not modify *** -->
+
+<!--  parameter name="ctsCreationMethod" value="cts-endpoint" / -->
+
+<test name="Search Smoke Test">
+<parameter name="device" value="laptop" />
+<classes>
+<class name="com.basework.qa.application.tests.SearchEBooksTest"/>
+</classes>
+</test>
+
+<!-- <test name="Search Smoke Test">
+<parameter name="device" value="mobile" />
+<classes>
+<class name="com.basework.qa.application.tests.SearchEBooksTest"/>
+</classes>
+</test> -->
+
+</suite>
