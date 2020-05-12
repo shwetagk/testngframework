@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>AppiumTest</groupId>
-  <artifactId>LSAC-app</artifactId>
+  <artifactId>Base-work</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>LSAC-app</name>
+  <name>Base-work</name>
   <url>http://maven.apache.org</url>
 
   <properties>
