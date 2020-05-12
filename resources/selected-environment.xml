@@ -14,5 +14,5 @@
 <parameter name="appiumchromedriverPath" value="" />
 <parameter name="chromeDriverPaths" value="" />
 
-<parameter name="deployment" value="sandbot" />
+<parameter name="deployment" value="devmachine" />
 
